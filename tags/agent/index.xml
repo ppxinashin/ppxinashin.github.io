@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agent on 热河fen青</title><link>https://www.jehol-ppx.com/tags/agent/</link><description>Recent content in Agent on 热河fen青</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zhangzhewen@jehol-ppx.com (热河fen青)</managingEditor><webMaster>zhangzhewen@jehol-ppx.com (热河fen青)</webMaster><copyright>网站注册备案号：[冀ICP备2022002900号-1](https://beian.miit.gov.cn/)</copyright><lastBuildDate>Mon, 13 Jul 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://www.jehol-ppx.com/tags/agent/index.xml" rel="self" type="application/rss+xml"/><item><title>代码编程工具的记忆机制</title><link>https://www.jehol-ppx.com/llm-dev/agent/code-agent-memory/</link><pubDate>Mon, 13 Jul 2026 10:00:00 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/llm-dev/agent/code-agent-memory/</guid><description>&lt;p&gt;这篇文章回答一个核心问题：AI 编程工具的“记忆”到底是什么，它怎么存、怎么读、怎么更新，为什么不能简单理解成“模型真的记住了我”。&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;1. 一句话结论
+ &lt;div id="1-一句话结论" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e4%b8%80%e5%8f%a5%e8%af%9d%e7%bb%93%e8%ae%ba" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;代码编程工具里的“记忆”通常不是修改模型参数，而是把可复用的信息持久化到外部载体中，例如 Markdown 文件、向量/对象存储、线程检查点、规则文件、技能文件或本地生成的记忆摘要；之后在合适的时机把这些信息重新注入上下文，或按需检索出来辅助模型完成任务。&lt;/p&gt;
+&lt;p&gt;在工程上，它更像一套“上下文管理系统”：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;记什么：用户偏好、项目约定、调试经验、架构事实、可复用流程、历史会话。&lt;/li&gt;
+&lt;li&gt;存哪里：文件系统、平台 store、本地用户目录、项目目录、线程 checkpoint。&lt;/li&gt;
+&lt;li&gt;给谁看：某个用户、某个 agent、某个项目、某个组织。&lt;/li&gt;
+&lt;li&gt;什么时候读：启动时注入、路径命中时加载、任务匹配时按需读取、搜索历史线程。&lt;/li&gt;
+&lt;li&gt;什么时候写：对话中立即写、空闲后后台总结、定时 consolidation。&lt;/li&gt;
+&lt;li&gt;谁能写：agent 可写、只读策略、人工审批、应用代码写入。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;2. 先分清几类记忆
+ &lt;div id="2-先分清几类记忆" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-%e5%85%88%e5%88%86%e6%b8%85%e5%87%a0%e7%b1%bb%e8%ae%b0%e5%bf%86" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;2.1 短期记忆和长期记忆
+ &lt;div id="21-短期记忆和长期记忆" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#21-%e7%9f%ad%e6%9c%9f%e8%ae%b0%e5%bf%86%e5%92%8c%e9%95%bf%e6%9c%9f%e8%ae%b0%e5%bf%86" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;短期记忆是一次会话里的上下文，例如当前聊天记录、临时草稿、工具调用结果、当前任务状态。它让 agent 在同一轮任务中保持连贯。&lt;/p&gt;</description></item></channel></rss>
