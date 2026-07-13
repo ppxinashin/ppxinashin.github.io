@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go 面经 on 热河fen青</title><link>https://www.jehol-ppx.com/golang/interview/</link><description>Recent content in Go 面经 on 热河fen青</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zhangzhewen@jehol-ppx.com (热河fen青)</managingEditor><webMaster>zhangzhewen@jehol-ppx.com (热河fen青)</webMaster><copyright>网站注册备案号：[冀ICP备2022002900号-1](https://beian.miit.gov.cn/)</copyright><lastBuildDate>Thu, 28 Nov 2024 19:35:11 +0800</lastBuildDate><atom:link href="https://www.jehol-ppx.com/golang/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>纬创外派-百度网盘项目-go语言</title><link>https://www.jehol-ppx.com/golang/interview/wits-od-baidu/</link><pubDate>Thu, 28 Nov 2024 19:35:11 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/golang/interview/wits-od-baidu/</guid><description>&lt;h1 class="relative group"&gt;面试题
+ &lt;div id="面试题" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e9%9d%a2%e8%af%95%e9%a2%98" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;自我介绍&lt;/li&gt;
+&lt;li&gt;项目介绍&lt;/li&gt;
+&lt;li&gt;MySQL 知识点&lt;/li&gt;
+&lt;li&gt;场景设计-短链接(30 min)，插入、查询&lt;/li&gt;
+&lt;li&gt;Java 知识点&lt;/li&gt;
+&lt;li&gt;Go 知识点&lt;/li&gt;
+&lt;li&gt;代码题 &lt;a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/?envType=study-plan-v2&amp;amp;envId=top-interview-150" target="_blank" rel="noreferrer"&gt;最长字串，leetcode原题，滑动窗口&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

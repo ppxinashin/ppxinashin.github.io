@@ -1,1 +1,494 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java面经 on 热河fen青</title><link>https://www.jehol-ppx.com/java/interview/</link><description>Recent content in Java面经 on 热河fen青</description><generator>Hugo -- gohugo.io</generator><language>zh</language><managingEditor>zhangzhewen@jehol-ppx.com (热河fen青)</managingEditor><webMaster>zhangzhewen@jehol-ppx.com (热河fen青)</webMaster><copyright>网站注册备案号：[冀ICP备2022002900号-1](https://beian.miit.gov.cn/)</copyright><lastBuildDate>Thu, 12 Dec 2024 10:22:09 +0800</lastBuildDate><atom:link href="https://www.jehol-ppx.com/java/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>复盘与复习</title><link>https://www.jehol-ppx.com/java/interview/review/</link><pubDate>Mon, 30 Dec 2024 09:56:30 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/review/</guid><description/></item><item><title>中华保险外包（福利较好）-北京</title><link>https://www.jehol-ppx.com/java/interview/zhbx-wb/</link><pubDate>Wed, 11 Dec 2024 15:24:31 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/zhbx-wb/</guid><description/></item><item><title>兴业数金-外包-福州</title><link>https://www.jehol-ppx.com/java/interview/xysj-bs-wb/</link><pubDate>Wed, 11 Dec 2024 10:40:25 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/xysj-bs-wb/</guid><description/></item><item><title>自研移动端安全产品-指掌易-大连-面试经验</title><link>https://www.jehol-ppx.com/java/interview/zzy/</link><pubDate>Tue, 10 Dec 2024 14:58:28 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/zzy/</guid><description/></item><item><title>移动外派-杭州</title><link>https://www.jehol-ppx.com/java/interview/cmcc-wb/</link><pubDate>Tue, 10 Dec 2024 11:26:45 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/cmcc-wb/</guid><description/></item><item><title>赢时胜-外派工行面经</title><link>https://www.jehol-ppx.com/java/interview/yss-od-icbc/</link><pubDate>Thu, 28 Nov 2024 18:02:59 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/yss-od-icbc/</guid><description/></item><item><title>汉得信息-一面凉经（回忆版）-广州</title><link>https://www.jehol-ppx.com/java/interview/hand-info-tech/</link><pubDate>Thu, 28 Nov 2024 15:00:59 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/hand-info-tech/</guid><description/></item><item><title>同方软银-base大连-深圳出长差-面试（单次/回忆版本）</title><link>https://www.jehol-ppx.com/java/interview/tfry-basedl-sz/</link><pubDate>Thu, 28 Nov 2024 14:57:55 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/tfry-basedl-sz/</guid><description/></item><item><title>易宝软件-外派达摩院AIGC项目组-面试（只有一次/回忆版本）</title><link>https://www.jehol-ppx.com/java/interview/epro-od-damo/</link><pubDate>Thu, 28 Nov 2024 14:15:13 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/epro-od-damo/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java面经 on 热河fen青</title><link>https://www.jehol-ppx.com/java/interview/</link><description>Recent content in Java面经 on 热河fen青</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zhangzhewen@jehol-ppx.com (热河fen青)</managingEditor><webMaster>zhangzhewen@jehol-ppx.com (热河fen青)</webMaster><copyright>网站注册备案号：[冀ICP备2022002900号-1](https://beian.miit.gov.cn/)</copyright><lastBuildDate>Mon, 30 Dec 2024 09:56:30 +0800</lastBuildDate><atom:link href="https://www.jehol-ppx.com/java/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>复盘与复习</title><link>https://www.jehol-ppx.com/java/interview/review/</link><pubDate>Mon, 30 Dec 2024 09:56:30 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/review/</guid><description>&lt;h1 class="relative group"&gt;前言
+ &lt;div id="前言" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%89%8d%e8%a8%80" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;经过两个月的面试，发现了诸多的问题，现在为了避免应试失败，这一次开始拓展性的面试复盘，把所有面试的问题都准备一下，今天进行的是复盘题目和总结，明天开始逐一攻关&lt;/p&gt;
+
+&lt;h1 class="relative group"&gt;0. 自我介绍
+ &lt;div id="0-自我介绍" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#0-%e8%87%aa%e6%88%91%e4%bb%8b%e7%bb%8d" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mianshiya.com/question/1818992209815425026" target="_blank" rel="noreferrer"&gt;请做一个简单的自我介绍，比如你的职业背景？ - 面试鸭 - 程序员求职面试刷题神器&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 class="relative group"&gt;1. 专业技能部分
+ &lt;div id="1-专业技能部分" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e4%b8%93%e4%b8%9a%e6%8a%80%e8%83%bd%e9%83%a8%e5%88%86" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+
+&lt;h2 class="relative group"&gt;1.1 专业技能1-熟悉Java特性
+ &lt;div id="11-专业技能1-熟悉java特性" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#11-%e4%b8%93%e4%b8%9a%e6%8a%80%e8%83%bd1-%e7%86%9f%e6%82%89java%e7%89%b9%e6%80%a7" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;基础知识&lt;/p&gt;</description></item><item><title>中华保险外包（福利较好）-北京</title><link>https://www.jehol-ppx.com/java/interview/zhbx-wb/</link><pubDate>Wed, 11 Dec 2024 15:24:31 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/zhbx-wb/</guid><description>&lt;h1 class="relative group"&gt;一面
+ &lt;div id="一面" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e4%b8%80%e9%9d%a2" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;聊天为主，偶尔聊点技术问题（意外）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;自我介绍&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;请做一个简短的自我介绍。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;项目经验&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;您最近参与的一个项目是什么？该项目的主要技术栈是什么？&lt;/li&gt;
+&lt;li&gt;智能答题系统是否已经上线？如果上线了，在哪里上线？&lt;/li&gt;
+&lt;li&gt;在这个项目中您具体工作了多久？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;团队与职责&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;您所在的团队有多少人？您的小组有多少人？&lt;/li&gt;
+&lt;li&gt;请描述一下您在高校GPT系统中的角色和责任。&lt;/li&gt;
+&lt;li&gt;在这些项目中，您主要负责哪些方面的工作？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;编程语言和技术细节&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在项目中您使用到了Java的哪些特性？&lt;/li&gt;
+&lt;li&gt;抽象类在Java中有何特点？它们与接口有何不同？
+&lt;ul&gt;
+&lt;li&gt;参考：https://blog.csdn.net/ADbyCool/article/details/106789587&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;类（非接口类）在Java中有什么特性？&lt;/li&gt;
+&lt;li&gt;在项目中您是否有抽象过任何方法？如果有，请举例说明。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;设计模式&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>兴业数金-外包-福州</title><link>https://www.jehol-ppx.com/java/interview/xysj-bs-wb/</link><pubDate>Wed, 11 Dec 2024 10:40:25 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/xysj-bs-wb/</guid><description>&lt;h1 class="relative group"&gt;笔试题（只记录我没答上来的题目）
+ &lt;div id="笔试题只记录我没答上来的题目" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e7%ac%94%e8%af%95%e9%a2%98%e5%8f%aa%e8%ae%b0%e5%bd%95%e6%88%91%e6%b2%a1%e7%ad%94%e4%b8%8a%e6%9d%a5%e7%9a%84%e9%a2%98%e7%9b%ae" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+
+&lt;h2 class="relative group"&gt;1. 外语类
+ &lt;div id="1-外语类" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e5%a4%96%e8%af%ad%e7%b1%bb" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;外语完型
+ &lt;div id="外语完型" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%a4%96%e8%af%ad%e5%ae%8c%e5%9e%8b" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;全是蒙的，几乎一个都没答上来&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;2. 算法
+ &lt;div id="2-算法" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-%e7%ae%97%e6%b3%95" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;给定二叉树的一个后序和中序遍历结果，确定前序遍历结果
+ &lt;div id="给定二叉树的一个后序和中序遍历结果确定前序遍历结果" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e7%bb%99%e5%ae%9a%e4%ba%8c%e5%8f%89%e6%a0%91%e7%9a%84%e4%b8%80%e4%b8%aa%e5%90%8e%e5%ba%8f%e5%92%8c%e4%b8%ad%e5%ba%8f%e9%81%8d%e5%8e%86%e7%bb%93%e6%9e%9c%e7%a1%ae%e5%ae%9a%e5%89%8d%e5%ba%8f%e9%81%8d%e5%8e%86%e7%bb%93%e6%9e%9c" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;要确定二叉树的前序遍历结果，可以按照以下步骤进行：&lt;/p&gt;</description></item><item><title>自研移动端安全产品-指掌易-大连-面试经验</title><link>https://www.jehol-ppx.com/java/interview/zzy/</link><pubDate>Tue, 10 Dec 2024 14:58:28 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/zzy/</guid><description>&lt;h1 class="relative group"&gt;0. 结果
+ &lt;div id="0-结果" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#0-%e7%bb%93%e6%9e%9c" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;没啥戏&lt;/p&gt;
+
+&lt;h1 class="relative group"&gt;1. 面试
+ &lt;div id="1-面试" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e9%9d%a2%e8%af%95" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+
+&lt;h2 class="relative group"&gt;1. &lt;strong&gt;技术栈和项目经验&lt;/strong&gt;：
+ &lt;div id="1-技术栈和项目经验" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e6%8a%80%e6%9c%af%e6%a0%88%e5%92%8c%e9%a1%b9%e7%9b%ae%e7%bb%8f%e9%aa%8c" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;你在之前的项目中使用了哪些技术栈？
+ &lt;div id="你在之前的项目中使用了哪些技术栈" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e4%bd%a0%e5%9c%a8%e4%b9%8b%e5%89%8d%e7%9a%84%e9%a1%b9%e7%9b%ae%e4%b8%ad%e4%bd%bf%e7%94%a8%e4%ba%86%e5%93%aa%e4%ba%9b%e6%8a%80%e6%9c%af%e6%a0%88" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h3 class="relative group"&gt;描述一下你最近做的AI答题应用系统。
+ &lt;div id="描述一下你最近做的ai答题应用系统" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e6%8f%8f%e8%bf%b0%e4%b8%80%e4%b8%8b%e4%bd%a0%e6%9c%80%e8%bf%91%e5%81%9a%e7%9a%84ai%e7%ad%94%e9%a2%98%e5%ba%94%e7%94%a8%e7%b3%bb%e7%bb%9f" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h2 class="relative group"&gt;2. &lt;strong&gt;AI模型选择&lt;/strong&gt;：
+ &lt;div id="2-ai模型选择" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-ai%e6%a8%a1%e5%9e%8b%e9%80%89%e6%8b%a9" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;在选型过程中是如何选择用哪一个AI模型（如通义AI、OpenAI等）？
+ &lt;div id="在选型过程中是如何选择用哪一个ai模型如通义aiopenai等" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%9c%a8%e9%80%89%e5%9e%8b%e8%bf%87%e7%a8%8b%e4%b8%ad%e6%98%af%e5%a6%82%e4%bd%95%e9%80%89%e6%8b%a9%e7%94%a8%e5%93%aa%e4%b8%80%e4%b8%aaai%e6%a8%a1%e5%9e%8b%e5%a6%82%e9%80%9a%e4%b9%89aiopenai%e7%ad%89" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h2 class="relative group"&gt;3. &lt;strong&gt;Spring Boot配置与操作&lt;/strong&gt;：
+ &lt;div id="3-spring-boot配置与操作" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#3-spring-boot%e9%85%8d%e7%bd%ae%e4%b8%8e%e6%93%8d%e4%bd%9c" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;如果想将Spring Boot默认的嵌入式服务器换成其他的应该怎么做？
+ &lt;div id="如果想将spring-boot默认的嵌入式服务器换成其他的应该怎么做" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%a6%82%e6%9e%9c%e6%83%b3%e5%b0%86spring-boot%e9%bb%98%e8%ae%a4%e7%9a%84%e5%b5%8c%e5%85%a5%e5%bc%8f%e6%9c%8d%e5%8a%a1%e5%99%a8%e6%8d%a2%e6%88%90%e5%85%b6%e4%bb%96%e7%9a%84%e5%ba%94%e8%af%a5%e6%80%8e%e4%b9%88%e5%81%9a" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h3 class="relative group"&gt;如何在Spring Boot启动时执行特定的代码逻辑？
+ &lt;div id="如何在spring-boot启动时执行特定的代码逻辑" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%a6%82%e4%bd%95%e5%9c%a8spring-boot%e5%90%af%e5%8a%a8%e6%97%b6%e6%89%a7%e8%a1%8c%e7%89%b9%e5%ae%9a%e7%9a%84%e4%bb%a3%e7%a0%81%e9%80%bb%e8%be%91" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h2 class="relative group"&gt;4. &lt;strong&gt;异常处理&lt;/strong&gt;：
+ &lt;div id="4-异常处理" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#4-%e5%bc%82%e5%b8%b8%e5%a4%84%e7%90%86" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;你是如何实现全局异常处理的？
+ &lt;div id="你是如何实现全局异常处理的" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e4%bd%a0%e6%98%af%e5%a6%82%e4%bd%95%e5%ae%9e%e7%8e%b0%e5%85%a8%e5%b1%80%e5%bc%82%e5%b8%b8%e5%a4%84%e7%90%86%e7%9a%84" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+
+&lt;h2 class="relative group"&gt;5. &lt;strong&gt;加密机制&lt;/strong&gt;：
+ &lt;div id="5-加密机制" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#5-%e5%8a%a0%e5%af%86%e6%9c%ba%e5%88%b6" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;对controller返回值进行加密的方法有哪些？
+ &lt;div id="对controller返回值进行加密的方法有哪些" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%af%b9controller%e8%bf%94%e5%9b%9e%e5%80%bc%e8%bf%9b%e8%a1%8c%e5%8a%a0%e5%af%86%e7%9a%84%e6%96%b9%e6%b3%95%e6%9c%89%e5%93%aa%e4%ba%9b" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;要在Spring Boot启动后立即对controller返回值进行加密，可以使用拦截器或过滤器来实现。以下是使用过滤器的示例：&lt;/p&gt;</description></item><item><title>移动外派-杭州</title><link>https://www.jehol-ppx.com/java/interview/cmcc-wb/</link><pubDate>Tue, 10 Dec 2024 11:26:45 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/cmcc-wb/</guid><description>&lt;h1 class="relative group"&gt;0. 结论
+ &lt;div id="0-结论" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#0-%e7%bb%93%e8%ae%ba" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;疑似刷KPI，因为我和HR核实，大约面试就20分钟，不过线上面试，可以拿来练手&lt;/p&gt;
+
+&lt;h1 class="relative group"&gt;1. 面试题（20min+）
+ &lt;div id="1-面试题20min" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e9%9d%a2%e8%af%95%e9%a2%9820min" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;自我介绍&lt;/li&gt;
+&lt;li&gt;项目介绍&lt;/li&gt;
+&lt;li&gt;Controller 与 RestController的区别（一个是单独注解，另一个是合并注解，后者是ResponseBody与Controller的合并）&lt;/li&gt;
+&lt;li&gt;问我如何对SQL调优&lt;/li&gt;
+&lt;li&gt;问我如何解决Redis穿透的问题，缓存搭建的问题&lt;/li&gt;
+&lt;li&gt;重复性的恶意请求，如果这个缓存就是不存在，且数据库查不到，如何解决？（没答上来，做个参考）
+&lt;ul&gt;
+&lt;li&gt;请求速率限制：使用速率限制（Rate Limiting）来限制每个IP地址在一定时间内的请求次数。可以使用Nginx、API Gateway等工具来实现。&lt;/li&gt;
+&lt;li&gt;验证码：在关键操作或频繁请求时，要求用户输入验证码，以防止自动化的&lt;/li&gt;
+&lt;li&gt;IP黑名单：将频繁发送恶意请求的IP地址加入黑名单，阻止其访问。&lt;/li&gt;
+&lt;li&gt;缓存空结果：对于不存在的数据，可以将空结果缓存一段时间，防止短时间内重复查询数据库。&lt;/li&gt;
+&lt;li&gt;请求签名：对请求进行签名验证，确保请求的合法性，防止伪造请求。&lt;/li&gt;
+&lt;li&gt;监控和报警：设置监控和报警机制，及时发现和处理异常请求。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;策略模式&lt;/li&gt;
+&lt;li&gt;配置Gateway的方法：yaml，必要三个条件：服务名称、端口号和api前缀&lt;/li&gt;
+&lt;li&gt;已知如果需要动态配置，除了环境变量手段以外，如何用Nacos实现这个过程？
+&lt;ul&gt;
+&lt;li&gt;参考1：&lt;a href="https://nacos.io/docs/v3.0/plugin/custom-environment-plugin/" target="_blank" rel="noreferrer"&gt;Nacos自定义环境变量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;参考2：&lt;a href="https://blog.csdn.net/a745233700/article/details/122916208" target="_blank" rel="noreferrer"&gt;Nacos 配置中心用法&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>赢时胜-外派工行面经</title><link>https://www.jehol-ppx.com/java/interview/yss-od-icbc/</link><pubDate>Thu, 28 Nov 2024 18:02:59 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/yss-od-icbc/</guid><description>&lt;h1 class="relative group"&gt;面试题
+ &lt;div id="面试题" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e9%9d%a2%e8%af%95%e9%a2%98" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;自我介绍 - 要求候选人简述自己的背景和经历。
+&lt;ul&gt;
+&lt;li&gt;样例：尊敬的面试官，您好。我是XXX，一名拥有2年Java后端开发经验的工程师。最近在XX公司担任后端工程师，主导了多个关键项目的开发与优化。我对Java有深入理解，熟悉集合类、自定义注解及异常处理，并严格遵守阿里编码规范确保代码质量。熟练使用SSM和Spring Boot框架，曾用MyBatis-Plus提升开发效率。掌握了Redis的应用与优化，解决了缓存穿透、一致性问题，并通过Lua脚本实现限流。特别值得一提的是，在构建一个在线答题平台时，我利用Spring Boot整合了Redis缓存、通义AI智能服务、RxJava响应式编程以及SSE实时推送技术。我们团队采用了策略模式提高系统灵活性，封装AI服务简化初始化，优化Prompt保证数据格式化，同时引入Caffeine本地缓存减少重复计算，显著提升了系统性能。此外，我还领导了一次从Java到Go的技术迁移，大幅提高了开发效率并降低了维护成本。我对软件工程充满热情，持续追求技术水平和服务质量的提升。我相信我的背景和技术能力非常适合这个职位，期待能进一步讨论如何为贵公司带来价值。感谢您提供的机会，希望有幸加入贵公司。谢谢！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;项目介绍 - 让候选人详细讲述最近参与的项目，特别是与AI答题系统相关的内容。
+&lt;ul&gt;
+&lt;li&gt;继续看看课程，稍作完善&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;系统并发能力 - 询问智能答题系统的并发处理能力，特别是针对一万多用户的场景。
+&lt;ul&gt;
+&lt;li&gt;信口胡说一下，因为我把它包装成了一个高校特供的项目，当然之前有这样的项目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据处理流程 - 关于答题系统中数据处理的具体流程，尤其是AI判题时的数据存储和检索机制。
+&lt;ul&gt;
+&lt;li&gt;不会&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据库索引 - 提问关于MySQL查询语句中使用IN关键字是否触发索引，以及联合索引的使用情况。
+&lt;ul&gt;
+&lt;li&gt;需结合实际情况讨论，仍以字段是否有索引为标准&lt;/li&gt;
+&lt;li&gt;索引下推&lt;/li&gt;
+&lt;li&gt;最左匹配原则&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;事务隔离级别 - 考察候选人对数据库事务隔离级别的理解，特别是MySQL的默认隔离级别及其含义。
+&lt;ul&gt;
+&lt;li&gt;四大隔离：读已提交、读未提交、可重复读、串行化&lt;/li&gt;
+&lt;li&gt;默认隔离级别：可重复读&lt;/li&gt;
+&lt;li&gt;含义：它确保在同一事务中多次读取同一数据集时，结果是一致的。这意味着在事务执行期间，其他事务无法修改这些数据。这个级别可以防止脏读和不可重复读，但可能出现幻读。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MySQL执行计划 - 询问候选人如何查看和解读MySQL的执行计划，用于查询优化。
+&lt;ul&gt;
+&lt;li&gt;select_type, type, key, key_len, rows, Extra&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;查询类型效率 - 讨论MySQL查询类型（如index, range, ref）的效率排序。
+&lt;ul&gt;
+&lt;li&gt;参考： ref &amp;gt; range &amp;gt; index&lt;/li&gt;
+&lt;li&gt;const, system：这些查询类型用于单行匹配，效率最高。&lt;/li&gt;
+&lt;li&gt;eq_ref：用于唯一索引的查询，每次只返回一行。&lt;/li&gt;
+&lt;li&gt;ref：用于非唯一索引的查询，可能返回多行。&lt;/li&gt;
+&lt;li&gt;range：用于范围查询，扫描索引的一部分。&lt;/li&gt;
+&lt;li&gt;index：扫描整个索引。&lt;/li&gt;
+&lt;li&gt;ALL：全表扫描，效率最低。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;测试候选人对Java字符串处理的理解，包括字符串相等性的判断（小场景题，主要是==与equals的区别）
+&lt;ul&gt;
+&lt;li&gt;参考：&lt;a href="https://www.mianshiya.com/question/1772568783219695618?shareCode=l35fjd" target="_blank" rel="noreferrer"&gt;== equals 和 hashCode 是什么，又有怎样的区别？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;扩展问题：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;String/StringBuilder/StringBuffer的区别。&lt;/li&gt;
+&lt;li&gt;类加载顺序 - 询问Java中类的静态变量、静态代码块、成员变量、普通代码块、构造方法、(静态方法)的加载顺序。
+&lt;ul&gt;
+&lt;li&gt;静态变量和静态代码块 &amp;gt; 成员变量和普通代码块 &amp;gt; 构造方法 (&amp;gt; 静态方法)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Java IO - 要求解释Java IO的不同模式，包括传统的阻塞IO、非阻塞IO及AIO，并提及项目中常用的字节流。
+&lt;ul&gt;
+&lt;li&gt;问你这个的时候，实际上考官在问的是序列化和反序列化问题&lt;/li&gt;
+&lt;li&gt;还有文件字节流&lt;/li&gt;
+&lt;li&gt;还有上面的三种io&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>汉得信息-一面凉经（回忆版）-广州</title><link>https://www.jehol-ppx.com/java/interview/hand-info-tech/</link><pubDate>Thu, 28 Nov 2024 15:00:59 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/hand-info-tech/</guid><description>&lt;h1 class="relative group"&gt;1. 自我介绍
+ &lt;div id="1-自我介绍" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e8%87%aa%e6%88%91%e4%bb%8b%e7%bb%8d" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;面试解析：&lt;a href="https://www.bilibili.com/video/BV1Yx4y1p7fd/?spm_id_from=..search-card.all.click" target="_blank" rel="noreferrer"&gt;普通人面试指南2024版&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 class="relative group"&gt;2. 问题回忆
+ &lt;div id="2-问题回忆" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-%e9%97%ae%e9%a2%98%e5%9b%9e%e5%bf%86" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;介绍一下你拿手的项目？&lt;/li&gt;
+&lt;li&gt;遇到的难点&lt;/li&gt;
+&lt;li&gt;RabbitMQ问题&lt;/li&gt;
+&lt;li&gt;MySQL事务问题&lt;/li&gt;
+&lt;li&gt;Java基础类型&lt;/li&gt;
+&lt;li&gt;深拷贝和浅拷贝&lt;/li&gt;
+&lt;li&gt;包装类型和值类型&lt;/li&gt;
+&lt;li&gt;包装类型和值类型属于什么拷贝&lt;/li&gt;
+&lt;li&gt;JDK 1.8 新特性&lt;/li&gt;
+&lt;li&gt;流相关问题&lt;/li&gt;
+&lt;li&gt;流的过滤会不会影响已有的数组&lt;/li&gt;
+&lt;li&gt;Spring IOC AOP是什么？&lt;/li&gt;
+&lt;li&gt;Bean注入是属于IOC还是AOP&lt;/li&gt;
+&lt;li&gt;Spring事务问题（没答上来，瞎编引导到MyBatis）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 class="relative group"&gt;3. 感受
+ &lt;div id="3-感受" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#3-%e6%84%9f%e5%8f%97" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;这次感觉很社死，答得磕磕巴巴，差点我就要紫砂了，时至今日都没有一张offer.&lt;/p&gt;</description></item><item><title>同方软银-base大连-深圳出长差-面试（单次/回忆版本）</title><link>https://www.jehol-ppx.com/java/interview/tfry-basedl-sz/</link><pubDate>Thu, 28 Nov 2024 14:57:55 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/tfry-basedl-sz/</guid><description>&lt;h1 class="relative group"&gt;0. 面试结果
+ &lt;div id="0-面试结果" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#0-%e9%9d%a2%e8%af%95%e7%bb%93%e6%9e%9c" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;岗位竞争激烈，只要两个人，凉凉&lt;/p&gt;
+
+&lt;h1 class="relative group"&gt;1. 自我介绍
+ &lt;div id="1-自我介绍" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e8%87%aa%e6%88%91%e4%bb%8b%e7%bb%8d" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;面试解析：&lt;a href="https://www.bilibili.com/video/BV1Yx4y1p7fd/?spm_id_from=..search-card.all.click" target="_blank" rel="noreferrer"&gt;普通人面试指南2024版&lt;/a&gt;&lt;/p&gt;</description></item><item><title>易宝软件-外派达摩院AIGC项目组-面试（只有一次/回忆版本）</title><link>https://www.jehol-ppx.com/java/interview/epro-od-damo/</link><pubDate>Thu, 28 Nov 2024 14:15:13 +0800</pubDate><author>zhangzhewen@jehol-ppx.com (热河fen青)</author><guid>https://www.jehol-ppx.com/java/interview/epro-od-damo/</guid><description>&lt;h1 class="relative group"&gt;0. 面试结果
+ &lt;div id="0-面试结果" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#0-%e9%9d%a2%e8%af%95%e7%bb%93%e6%9e%9c" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;凉凉，差点以为能过，面试官当时对我印象不错，意难平，决定分享&lt;/p&gt;
+
+&lt;h1 class="relative group"&gt;1. 自我介绍(1min)
+ &lt;div id="1-自我介绍1min" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%e8%87%aa%e6%88%91%e4%bb%8b%e7%bb%8d1min" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;面试解析：&lt;a href="https://www.bilibili.com/video/BV1Yx4y1p7fd/?spm_id_from=..search-card.all.click" target="_blank" rel="noreferrer"&gt;普通人面试指南2024版&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
